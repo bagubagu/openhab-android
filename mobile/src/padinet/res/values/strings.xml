@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name" translatable="false">philoin</string>
+    <string name="tasker_item_picker_title">philoin Items</string>
+
+    <!-- Attention translators! Do NOT submit localized strings through GitHub Pull Request. -->
+    <!-- See: https://github.com/openhab/openhab-android/blob/master/README.md#localization -->
+    <!-- General app strings -->
+
+    <!-- Main menu items -->
+
+    <!-- App settings strings -->
+    <string name="settings_openhab_url_summary">The URL of the philoin dashboard (based on hostname or IP). If configured, autodiscovery is disabled. Current setting: %s</string>
+    <string name="settings_openhab_alturl_summary">The URL of the philoin dashboard used when the local address is unavailable. Current setting: %s</string>
+    <string name="settings_openhab_screentimeroff_summary">Disable display switch off timer when philoin is running</string>
+    <string name="settings_openhab_demomode_summary">If you don\'t have an philoin server, enable demo mode to get an imagination of what philoin is capable of.</string>
+    <string name="screen_lock_unlock_screen_description">Unlock to access philoin</string>
+
+    <!-- App messages strings -->
+    <string name="info_voice_input">philoin, at your command!</string>
+    <!-- Please try to keep the string as short as possible -->
+
+    <!-- Error messages -->
+    <string name="error_empty_sitemap_list">philoin returned empty Sitemap list</string>
+    <string name="error_http_connection_failed">Connection unsuccessful. An unexpected response was received while trying to connect to the configured philoin server (HTTP code %d).</string>
+    <!-- The following strings are referenced via reflection in Context.getHumanReadableErrorMessage -->
+    <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
+    <string name="error_http_code_502" tools:keep="@string/error_http_code_502">Your reverse proxy got an invalid answer from the philoin server (HTTP code %d)</string>
+    <string name="error_http_code_503" tools:keep="@string/error_http_code_503">The philoin server is temporarily unavailable (HTTP code %d)</string>
+    <string name="error_http_code_504" tools:keep="@string/error_http_code_504">Gateway time-out. Seems that your reverse proxy is running, but couldn\'t get an answer from the philoin server (HTTP code %d).</string>
+    <string name="error_http_code_507" tools:keep="@string/error_http_code_507">The philoin server hasn\'t enough free space (HTTP code %d)</string>
+    <!-- Short error strings without hints how to fix it, e.g. for notification -->
+    <string name="error_short_openhab_offline">philoin is offline</string>
+    <!-- The following strings are referenced via reflection in Context.getHumanReadableErrorMessage -->
+    <string name="error_short_http_code_502" tools:keep="@string/error_short_http_code_502">Reverse proxy got invalid answer from philoin (HTTP code %d)</string>
+    <string name="error_short_http_code_503" tools:keep="@string/error_short_http_code_503">philoin temporarily unavailable (HTTP code %d)</string>
+    <string name="error_about_no_conn">Error while fetching philoin server information</string>
+    <string name="error_openhab_offline">Your philoin server is offline while the cloud instance is running</string>
+    <string name="info_openhab_apiversion_label">philoin Rest API version</string>
+
+    <!-- Background tasks -->
+    <string name="settings_wifi_ssid_summary_on_location_on">Sends Wi-Fi name (SSID) to Item \'%1$s\'. \"Location\" must be turned on, otherwise philoin isn\'t allowed to get the Wi-Fi name.</string>
+    <string name="push_notification_status_remote_no_cloud">Unavailable, remote server isn\'t an philoin cloud instance</string>
+    <!-- %1$s: Item name, %2$s: HTTP error message -->
+    <!-- %1$s: Item label, %2$s: HTTP error message -->
+
+    <!-- Device identifier -->
+    <!-- Please translate "Device identifier" in this string -->
+    <string name="device_identifier_hint">This device identifier can be any string and should be unique for all devices accessing your philoin server. Besides the two use cases above, you can also use it as state on NFC tags, so you know which device read the tag.</string>
+
+    <!-- Notification list strings -->
+
+    <!-- Strings for MemorizingTrustManager activity -->
+
+    <!-- Themes -->
+
+    <!-- Chart -->
+
+    <!-- NFC -->
+
+    <!-- Drawer -->
+
+    <!-- About -->
+    <string name="about_copyright" translatable="false">© 2012 - %s philoin community</string>
+    <string name="about_foundation">philoin Foundation</string>
+    <string name="about_community">philoin community</string>
+    <string name="about_server">philoin server</string>
+    <string name="about_translation">Help us translating philoin</string>
+
+    <string name="error_couldnt_determine_openhab_url">Couldn\'t determine philoin URL</string>
+    <string name="configuration_missing">We didn\'t find an philoin server in your network. If you already have a server, please configure its IP address or host name in the server settings. If you don\'t yet have a server, you can enable demo mode to see what philoin is capable of.</string>
+    <string name="resolving_openhab">Trying to discover philoin server instance\u2026</string>
+
+    <!-- Log -->
+
+    <!-- Home screen shortcuts -->
+
+    <!-- Content description for images -->
+    <string name="content_description_open_openhab">Open philoin</string>
+
+    <!-- Intro strings -->
+    <string name="intro_welcome">Welcome to philoin</string>
+    <string name="intro_welcome_back">Welcome back to philoin</string>
+    <!-- Intro "SKIP" button -->
+    <!-- Intro "DONE" button -->
+
+    <!-- Item picker -->
+    <!-- %1$s: Item label, %2$s: Item name, %3$s: State -->
+    <!-- %1$s: Item label, %2$s: Item name, %3$s: State -->
+
+    <!-- Item update widget -->
+    <!-- %1$s: Item label, %2$s: Action, e.g. "Lights: On" -->
+
+    <!-- Data saver -->
+
+    <!-- Tiles -->
+    <string name="tile_configure_in_settings">This tile can be configured in the philoin app settings</string>
+
+    <!-- Tile icon names -->
+    <string name="tile_icon_openhab">philoin icon</string>
+
+    <!-- Tile icon values -->
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- Attention translators! Do NOT submit localized strings through GitHub Pull Request. -->
+    <!-- See: https://github.com/openhab/openhab-android/blob/master/README.md#localization -->
+    <!-- General app strings -->
+
+    <!-- Main menu items -->
+
+    <!-- App settings strings -->
+    <string name="settings_openhab_url_summary">URL dashboard philoin (berdasarkan nama host atau IP). Jika mengkonfigurasi, penemuan otomatis dinonaktifkan. Pengaturan saat ini: %s</string>
+    <string name="settings_openhab_alturl_summary">URL dashboard philoin digunakan saat alamat lokal tidak tersedia. Setelan saat ini: %s</string>
+    <string name="settings_openhab_screentimeroff_summary">Nonaktifkan tampilan matikan timer saat philoin sedang berlari</string>
+    <string name="settings_openhab_demomode_summary">Jika Anda tidak memiliki server philoin, aktifkan mode demo untuk mengimajinasikan kemampuan philoin.</string>
+
+    <!-- App messages strings -->
+    <string name="info_voice_input">philoin, atas perintahmu!</string>
+    <!-- Please try to keep the string as short as possible -->
+
+    <!-- Error messages -->
+    <string name="error_empty_sitemap_list">philoin mengembalikan daftar peta situs kosong</string>
+    <!-- The following strings are referenced via reflection in Context.getHumanReadableErrorMessage -->
+    <!-- Nginx specific codes, but since it is the recommended reverse proxy, we should check for them: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#nginx -->
+    <!-- Short error strings without hints how to fix it, e.g. for notification -->
+    <!-- The following strings are referenced via reflection in Context.getHumanReadableErrorMessage -->
+    <string name="error_about_no_conn">Terjadi kesalahan saat menarik informasi server philoin</string>
+    <string name="error_openhab_offline">Server philoin Anda sedang tidak terhubung saat cloud instance sedang berjalan</string>
+    <string name="info_openhab_apiversion_label">versi philoin Jeda API</string>
+
+    <!-- Background tasks -->
+    <!-- %1$s: Item name, %2$s: HTTP error message -->
+    <!-- %1$s: Item label, %2$s: HTTP error message -->
+
+    <!-- Device identifier -->
+    <!-- Please translate "Device identifier" in this string -->
+
+    <!-- Notification list strings -->
+
+    <!-- Strings for MemorizingTrustManager activity -->
+
+    <!-- Themes -->
+
+    <!-- Chart -->
+
+    <!-- NFC -->
+
+    <!-- Drawer -->
+
+    <!-- About -->
+    <string name="about_foundation">Yayasan philoin</string>
+    <string name="about_community">komunitas philoin</string>
+    <string name="about_server">server philoin</string>
+    <string name="about_translation">Bantu kami menerjemahkan philoin</string>
+
+    <string name="error_couldnt_determine_openhab_url">Tidak dapat menentukan URL philoin</string>
+    <string name="configuration_missing">Kami tidak dapat menemukam server philoin dijaringan anda. Jika Anda telah memiliki sebuah server, mohon mengatur alamat IP atau host name di dalam pengaturan server. Apabila Anda belum memiliki sebuah server, Anda dapat mengaktifkan mode demo untuk melihat kemampuan yang dimiliki philoin.</string>
+    <string name="resolving_openhab">Mencoba menemukan server instance \u2026 philoin</string>
+    <!-- Log -->
+
+    <!-- Home screen shortcuts -->
+
+    <!-- Content description for images -->
+    <string name="content_description_open_openhab">Buka philoin</string>
+
+    <!-- Intro strings -->
+    <string name="intro_welcome">Selamat Datang di philoin</string>
+    <!-- Intro "SKIP" button -->
+    <!-- Intro "DONE" button -->
+
+    <!-- Item picker -->
+    <!-- %1$s: Item label, %2$s: Item name, %3$s: State -->
+    <!-- %1$s: Item label, %2$s: Item name, %3$s: State -->
+
+    <!-- Item update widget -->
+    <!-- %1$s: Item label, %2$s: Action, e.g. "Lights: On" -->
+
+    <!-- Data saver -->
+
+    <!-- Tiles -->
+
+    <!-- Tile icon names -->
+
+    <!-- Tile icon values -->
+</resources>

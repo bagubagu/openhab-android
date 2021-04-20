@@ -82,6 +82,10 @@ android {
             dimension "release"
             applicationIdSuffix ".beta"
         }
+        padinet {
+            dimension "release"
+            applicationIdSuffix ".padinet"
+        }
     }
     testOptions {
         unitTests {
